@@ -21,6 +21,7 @@ Find the support matrix for private preview of Azure Site Recovery support for T
 - **Boot Integrity Monitoring**: Replicating [Boot Integrity Monitoring](https://learn.microsoft.com/azure/virtual-machines/boot-integrity-monitoring-overview?tabs=portal) state is not supported. You will need to enable it explicitly on the failed-over VM, in case you want to use it. 
 - **Create a new VM flow**: On the Azure portal, enabling **Management** > **Site Recovery** option in *Create a new Virtual machine* flow isn't supported. 
 - **Scenario**: Available only for Azure-to-Azure scenarios.
+- **Trusted launch data disk**: Protecting data disk with security type **Trusted launch** is not supported. 
 
 ### Private endpoints
 
